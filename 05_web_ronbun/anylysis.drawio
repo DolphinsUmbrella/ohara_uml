@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="ページ1" id="ORLQ3FtA98VEwbTculyi">
+    <mxGraphModel dx="524" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-1" value="学生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-2" value="メニュー画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.018;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XLwPbjvi0moXrMf5Cipf-1" target="XLwPbjvi0moXrMf5Cipf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-4" value="メニュー画面を&lt;div&gt;クリックする&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XLwPbjvi0moXrMf5Cipf-3">
+          <mxGeometry x="0.0541" y="1" relative="1" as="geometry">
+            <mxPoint x="-23" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-5" value="学生登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-6" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="30" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-7" value="学生情報&lt;div&gt;登録&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="XLwPbjvi0moXrMf5Cipf-2" target="XLwPbjvi0moXrMf5Cipf-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="180" as="sourcePoint" />
+            <mxPoint x="320" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="XLwPbjvi0moXrMf5Cipf-6" target="XLwPbjvi0moXrMf5Cipf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="90" as="sourcePoint" />
+            <mxPoint x="450" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="XLwPbjvi0moXrMf5Cipf-5" target="XLwPbjvi0moXrMf5Cipf-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="170" as="sourcePoint" />
+            <mxPoint x="370" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XLwPbjvi0moXrMf5Cipf-1" target="XLwPbjvi0moXrMf5Cipf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="170" as="sourcePoint" />
+            <mxPoint x="200" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-14" value="学生情報を&lt;div&gt;入力する&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XLwPbjvi0moXrMf5Cipf-13">
+          <mxGeometry x="-0.0837" y="-1" relative="1" as="geometry">
+            <mxPoint y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-15" value="学生&lt;div&gt;オブジェクト&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="XLwPbjvi0moXrMf5Cipf-7" target="XLwPbjvi0moXrMf5Cipf-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="180" as="sourcePoint" />
+            <mxPoint x="440" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-18" value="・登録の成功、失敗&lt;div&gt;・すでに存在する学生かもしれない&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XLwPbjvi0moXrMf5Cipf-19" value="①境界オブジェクト&lt;div&gt;②制御オブジェクト&lt;/div&gt;&lt;div&gt;③実態オブジェクト&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
