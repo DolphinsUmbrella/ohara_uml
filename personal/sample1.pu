@@ -1,4 +1,4 @@
-@startuml
+@startuml テストクラス
 
 object 生物
 object 人間
