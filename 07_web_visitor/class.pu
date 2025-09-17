@@ -1,0 +1,22 @@
+@startuml .
+
+class 訪問者 {
+    - ユーザID: string
+    ' パスワードは8文字以上
+    - パスワード: string
+    - 名前: string
+    - 学校名: string
+    - 所属名: string
+    - メールアドレス: string
+    - 電話番号: string
+    - 年齢: int
+
+    + 登録する()
+    + 参照する()
+    + 更新する()
+    + 削除する()
+    + ログインする()
+    + ログアウトする()
+    }
+
+@enduml
