@@ -1,6 +1,6 @@
 from wsgiref.simple_server import make_server
-from app_logic import save_name, load_name, get_greeting, parse_post, render_template
-
+from app_logic import save_name, load_name, get_greeting, parse_post, render_template, calc
+from robodog import RoboDog
 
 def application(environ, start_response):
     path = environ.get("PATH_INFO", "/")
@@ -20,7 +20,13 @@ def application(environ, start_response):
 
     elif path == "/greeting":
         greeting = get_greeting()
-        body = render_template("templates/greeting.html", greeting=greeting, name_display=name or "ゲスト")
+        body = render_template("templates/greeting.html", greeting=greeting, name_display="ゲスト")
+
+    elif path == "/calc":
+        val1 = 1
+        val2 = 2
+        result = calc(val1, val2)
+        body = render_template("templates/calc.html", val1=val1, val2=val2, result=result)
 
     else:
         start_response("404 Not Found", [("Content-Type", "text/plain; charset=utf-8")])

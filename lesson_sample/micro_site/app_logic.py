@@ -29,6 +29,10 @@ def get_greeting():
         return "こんにちは"
     else:
         return "こんばんは"
+    
+def calc(val1: int, val2: int) -> int:
+    """簡単な計算を行う"""
+    return val1 + val2
 
 
 def parse_post(environ):
